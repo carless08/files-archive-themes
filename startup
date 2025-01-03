@@ -1,0 +1,7 @@
+#!/bin/sh
+sleep 2
+~/.config/polybar/launch.sh &
+nm-applet &
+feh --randomize --bg-fill ~/Pictures/*
+dbus-update-activation-environment --systemd --all
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1

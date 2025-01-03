@@ -1,0 +1,12 @@
+key "Super+space" rofi -show drun
+key "Super+Return" kitty
+
+# Volume control using amixer
+key "XF86AudioRaiseVolume" amixer set Master 5%+
+key "XF86AudioLowerVolume" amixer set Master 5%-
+key "XF86AudioMute" amixer set Master toggle
+
+# Brightness control using brightnessctl
+key "XF86MonBrightnessUp" brightnessctl set 10%+
+key "XF86MonBrightnessDown" brightnessctl set 10%-
+
